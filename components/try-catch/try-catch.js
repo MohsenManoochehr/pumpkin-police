@@ -1,4 +1,4 @@
-const { Catch } = "../catch/catch";
+const { Catch } = require("../catch/Catch");
 
 function TryCatch(code) {
   try {
