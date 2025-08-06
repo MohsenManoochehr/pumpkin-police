@@ -1,6 +1,6 @@
 function TryCatch(code) {
   try {
-    code;
+    code();
   } catch (error) {
     console.log("error.message", error.message);
   }
