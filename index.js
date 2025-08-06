@@ -1,11 +1,7 @@
-function TryCatch(code) {
-  try {
-    code();
-  } catch (error) {
-    console.log("error.message", error.message);
-  }
+const { TryCatch } = require("./components/try-catch/try-catch");
+
+function tets() {
+  throw new Error("This is an error!");
 }
 
-module.exports = {
-  TryCatch,
-};
+TryCatch(test());
