@@ -1,0 +1,17 @@
+{
+  "config": {
+    "api": {
+      "url": "fsdfjd;",
+      "example_payload": {
+        "title": "diag",
+        "version": "8.1.5"
+      },
+      "payload_error_name": "data"
+    },
+    "logs": {
+      "folder_path": "./",
+      "folder_name": "logs",
+      "file_name": "log"
+    }
+  }
+}
